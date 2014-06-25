@@ -1,0 +1,39 @@
+!!! 5
+%html
+	%head
+		%link{:rel => "stylesheet", :href => "main.css"}
+	%body
+		.nav
+			%ul
+				%li 
+					%a{:href => "#"}+You
+				%li
+					%a{:href => "#"}Gmail
+				%li
+					%a{:href => "#"}Images
+				%li
+					%a{:href => "#"}|||
+				%li
+					.sign_in
+						%a{:href => "#"}Sign In
+		.page
+			%img{:src => "https://www.google.com/logos/doodles/2014/world-cup-2014-29-6047431493943296-hp.gif"}
+			%form{:action => "#", :method => "get"}
+				%input.search_term{:type => "text", :name => "search"}
+				%br
+				.buttons
+					%input.search_button{:type => "submit", :value => "Google Search"}
+					%input.search_lucky{:type => "submit", :value => "I'm Feeling Lucky"}
+		.footer
+			%ul.left
+				%li 
+					%a{:href => "#"}Advertising
+				%li
+					%a{:href => "#"}Business
+				%li
+					%a{:href => "#"}About
+			%ul.right
+				%li 
+					%a{:href => "#"}Privacy &amp; Terms
+				%li
+					%a{:href => "#"}Settings
